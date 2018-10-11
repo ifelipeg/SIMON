@@ -1,0 +1,249 @@
+		#map {
+        height: 100%;
+		}
+      
+		html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+		}
+	  
+		#wrapper { position: relative;
+		}			
+	
+		
+		
+		
+
+	
+	#loading_container {
+		pointer-events: none;
+		font-family: 'Roboto', sans-serif;
+		-webkit-text-fill-color: transparent;
+		  -webkit-text-stroke-color: red;
+		  -webkit-text-stroke-width: 2px; 
+
+		font-size: 55px;
+		letter-spacing: 8px;
+		
+		
+		position: absolute;
+		bottom: 30%;  
+		right: 50%; 
+		
+		z-index: 100;	
+		transform: translate(50%, 50%);
+		
+		}
+		
+		
+		
+		
+		
+		
+		#error_container { 
+		pointer-events: none;
+		font-family: 'Roboto', sans-serif;
+		-webkit-text-fill-color: transparent;
+		  -webkit-text-stroke-color: red;
+		  -webkit-text-stroke-width: 2px; 
+		font-size: 55px;
+		letter-spacing: 8px;
+		
+		
+		position: absolute;
+		top: 70%;  
+		left: 50%; 
+		transform: translate(-50%, -50%); 
+		z-index: 1;
+		}
+		
+		
+		
+		
+		#info1_container { 
+		pointer-events: none;
+		font-family: 'Roboto', sans-serif;
+		color: rgba(0, 0, 0, 0.7);
+		font-size: 20px;
+		letter-spacing: 5px;
+		
+		pointer-events: none;
+		position: absolute;
+		bottom: 7%;  
+		  
+		width: 100%;
+		transform: translate(0,0%); 
+		z-index: 100;
+		}
+		
+		
+		
+		
+		
+		
+		#info2_container { 
+		font-family: 'Roboto', sans-serif;
+		
+		font-size: 18px;
+		letter-spacing: 5px;
+		pointer-events: none;
+		
+		position: absolute;
+		top: 5%;  
+		Right: 50%; 
+		transform: translate(50%);
+		z-index: 100;
+		}
+		
+		
+		
+		
+		#plot_box { position: absolute;	
+		z-index: 2;
+		
+		width: 100%;
+		height:100%;
+		border-radius: 15px;
+		background-color:rgba(255, 255, 255, 0.9);	
+		cursor :  url('/images/G3.png')31 22, auto;
+		
+		border: 3px solid #000;
+		
+		}
+		
+		#plot_container { position: absolute;		
+		top: 40%;
+		left: 2%;
+		
+		width: 94%;
+		height: 58%;
+
+		display: none;
+		z-index: 2;
+		}
+		
+		
+		#rec_player_container { position: absolute;
+		bottom: 42.5%;
+		right: 33%;
+		transform: translate(50%, 0%);
+		z-index: 3;
+			
+		width: 300px;
+		height: 25px;
+		font-size: 12px;
+		line-height: 100%;
+		display: none;
+		}	
+		
+		
+		#plot_box2 { position: absolute;	
+		
+		z-index: 10;
+		width: 100%;
+		height:100%;
+		border-radius: 15px;
+		background-color:rgba(255, 255, 255, 0.9);	
+		
+		border: 2px solid #000;
+		
+		}
+		
+		#plot_container2 { position: absolute;	
+				
+		bottom: 45%;
+		right: 50%;
+		z-index: 3;
+		width: 75%;
+		height: 35%;
+		transform: translate(50%, 50%);
+		display: none;
+		
+		}
+		
+		
+		
+		
+		
+		
+		
+	
+		
+		
+		#logos{ 
+		
+		position: absolute;		
+		bottom:90%;
+		right: 4%;
+		
+		z-index: 5;		
+		transform: translate(0, 50%);
+		
+		}
+		
+		
+		
+		
+	
+		#Btns { position: absolute;
+		top:8%;
+		left: 1%;
+		
+		padding:8px;
+		
+		
+		z-index: 1;	
+		opacity:0.9;
+
+
+		
+		background-color: #fff;	
+		
+
+		}
+		
+		
+		
+		.texts {font-family: 'Roboto', sans-serif;
+		color: #000;
+		font-size: 15px;
+		letter-spacing: 3px;
+		
+		}
+		
+		.texts_plot {font-family: 'Roboto', sans-serif;
+		
+		font-size: 18px;
+		
+		
+		}
+		
+		.texts_btn {font-family: 'Roboto', sans-serif;
+		color: #000;
+		font-size: 15px;
+		letter-spacing: 3px;
+		background-color: yellow
+		
+		}
+		
+		.textss {font-family: 'Roboto', sans-serif;
+		color: #000;
+		align: center;
+		font-size: 18px;
+		letter-spacing: 3px;
+		font-weight: bold;
+		display: none;
+		}
+		
+		.list {font-family: 'Roboto', sans-serif;
+		
+		
+		font-size: 18px;
+		letter-spacing: 3px;
+		font-weight: bold;
+		text-align-last:center;
+		
+		color: #000;
+   
+		}
